@@ -26,7 +26,7 @@ class ContainerVC: UIViewController {
             } else {
                 configForSlideMenuClose()
             }
-            UIView.animate(withDuration: 2, delay: 0, options: .curveEaseIn, animations: {self.view.layoutIfNeeded()}, completion: nil)
+            UIView.animate(withDuration: 3, delay: 1, options: .curveEaseIn, animations: {self.view.layoutIfNeeded()}, completion: nil)
         }
     }
     
